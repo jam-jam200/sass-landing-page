@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA, Subscription, NavBar } from "./components";
+import { CTA, Subscription, NavBar, Brand } from "./components";
 import {
   FAQS,
   Footer,
@@ -8,17 +8,14 @@ import {
   Arshakir,
   Header,
   Followers,
-  Brand,
 } from "./container";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient__bg">
-        <NavBar />
-        <Header />
-      </div>
+      <NavBar />
+      <Header />
       <Brand />
       <Arshakir />
       <Followers />

@@ -1,5 +1,4 @@
 export { default as Header } from "./Header/Header";
-export { default as Brand } from "./Brand/Brand";
 export { default as Arshakir } from "./Arshakir/Arshakir";
 export { default as FAQS } from "./FAQS/Faqs";
 export { default as Followers } from "./Followers/Followers";
