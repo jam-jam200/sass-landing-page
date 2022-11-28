@@ -1,10 +1,10 @@
-import arshakirsvg from "./AR Shakir.svg";
+import logosvg from "./AR Shakir.svg";
 import arrow from "./arrow.png";
 import blockRight from "./blockRight.png";
 import blockLeft from "./blocks.png";
 import cookies from "./cookies.png";
 import curlyArrow from "./curlyArrow.png";
-import followerImg from "./follwerImg.png";
+import followerImg from "./followerImg.png";
 import headerImg from "./headerImg.png";
 import line from "./line.png";
 import loginArrow from "./loginArrow.png";
@@ -23,10 +23,10 @@ import samsung from "./samsung.png";
 import security from "./security.png";
 import segment from "./segment.png";
 import socialmediaImg from "./socialmediaImg.png";
-import subscribeImg from "./suscribeImg";
+import subscribeImg from "./subscribeImg.png";
 
 export {
-  arshakirsvg,
+  logosvg,
   arrow,
   blockLeft,
   blockRight,
