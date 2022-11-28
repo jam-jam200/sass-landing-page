@@ -9,7 +9,7 @@ import {
   Header,
   Followers,
   Brand,
-} from "./containers";
+} from "./container";
 import "./App.css";
 
 function App() {

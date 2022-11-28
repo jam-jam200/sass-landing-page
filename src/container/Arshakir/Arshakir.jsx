@@ -1,5 +1,5 @@
 import React from "react";
-import "./Ashakir.css";
+import "./Arshakir.scss";
 
 const Ashakir = () => {
   return <div>Ashakir</div>;
