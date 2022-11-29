@@ -23,11 +23,14 @@ const images = [
 const Brand = () => {
   return (
     <div className="arshakir__brand section__padding">
-      {images.map((image, index) => (
-        <div key={index}>
-          <img src={image} alt="images" />
-        </div>
-      ))}
+      <h5>Trusted By Over 100+ Startups and freelance business</h5>
+      <div className="arshakir__brand_images">
+        {images.map((image, index) => (
+          <div key={index}>
+            <img src={image} alt="images" />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

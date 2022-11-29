@@ -1,16 +1,27 @@
 .arshakir__brand {
+  h5 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+  }
+}
+
+.arshakir__brand_images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
 
-.arshakir__brand div {
-  flex: 1;
-  max-width: 150px;
-  min-width: 120px;
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
