@@ -1,10 +1,15 @@
 .arshakir__header {
   display: flex;
   flex-direction: row;
+  padding-top: 0 !important;
+
+  @media screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
 }
 
 .arshakir__header-content {
-  flex: 1;
+  flex: 0.6;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -17,6 +22,16 @@
     font-size: 66px;
     line-height: 75px;
     letter-spacing: -0.04em;
+
+    @media screen and (max-width: 650px) {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    @media screen and (max-width: 490px) {
+      font-size: 36px;
+      line-height: 48px;
+    }
   }
 
   p {
@@ -26,6 +41,16 @@
     line-height: 29px;
     color: var(--color-text);
     margin-top: 1.5rem;
+
+    @media screen and (max-width: 650px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    @media screen and (max-width: 490px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
 
   .arshakir__header-content__input {
@@ -35,17 +60,21 @@
     flex-direction: row;
 
     button {
-      flex: 0.6;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5rem;
+      flex: 0.46;
       width: 100%;
-      min-height: 50px;
+      min-height: 55px;
       font-family: var(--font-family);
       font-weight: 500;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 28px;
       text-align: center;
       background: var(--color-button);
       border: 2px solid var(--color-button);
-      padding: 0 1rem;
+      padding: 0.8rem 1.5rem;
       color: #fff;
       cursor: pointer;
       outline: none;
@@ -55,7 +84,23 @@
         width: 17px;
         height: 13px;
       }
+
+      @media screen and (max-width: 650px) {
+        font-size: 16px;
+        line-height: 24px;
+        flex: 0.6;
+      }
+
+      @media screen and (max-width: 490px) {
+        font-size: 12px;
+        line-height: 16px;
+        flex: 0.6;
+      }
     }
+  }
+
+  @media screen and (max-width: 1050px) {
+    margin: 0 0 3rem;
   }
 }
 
@@ -63,25 +108,35 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-
+  align-items: flex-start;
+  flex-direction: column;
   margin-top: 2rem;
-}
 
-.arshakir__header-content__people img {
-  width: 181.79px;
-  height: 38px;
-}
+  img {
+    width: 181.79px;
+    height: 38px;
+    margin-bottom: 1rem;
+  }
 
-.arshakir__header-content__people p {
-  margin: 0 0 0 1rem;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 38px;
-  color: #fff;
-  text-align: center;
+  p {
+    flex: 0.4;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: var(--color-text);
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @media screen and (max-width: 650px) {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+  }
 }
 
 .arshakir__header-image {
@@ -96,56 +151,3 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
-  .arshakir__header {
-    flex-direction: column;
-  }
-
-  .arshakir__header-content {
-    margin: 0 0 3rem;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .arshakir__header-content h1 {
-    font-size: 48px;
-    line-height: 60px;
-  }
-
-  .arshakir__header-content p {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .arshakir__header-content__people {
-    flex-direction: column;
-  }
-
-  .arshakir__header-content__people p {
-    margin: 0;
-  }
-
-  .arshakir__header-content__input input,
-  .arshakir__header-content__input button {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .arshakir__header-content h1 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .arshakir__header-content p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  .arshakir__header-content__input input,
-  .arshakir__header-content__input button {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}

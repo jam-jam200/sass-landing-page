@@ -22,7 +22,7 @@ const Header = () => (
       <div className="arshakir__header-content__people">
         <img src={people} />
         <p>
-          12,000+ people already joined the arshakir&apos;s increase followers
+          12,000+ people already joined the arshakir&apos;s <br /> increase followers
           plan. Get started today!
         </p>
       </div>
