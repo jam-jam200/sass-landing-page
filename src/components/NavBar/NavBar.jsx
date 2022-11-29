@@ -25,7 +25,7 @@ const Menu = () => {
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="arshakir__navbar">
+    <div className="arshakir__navbar section__margin">
       <div className="arshakir__navbar-links">
         <div className="arshakir__navbar-links_logo">
           <img src={logo} alt="" />
