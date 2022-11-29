@@ -42,18 +42,17 @@ const Ashakir = () => {
         <Feature
           logo={cookies}
           title="No Cookies Required"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"
+          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
         />
         <Feature
           logo={loginArrow}
-          title="Login Info Not Required"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"
+          title="Login Required"
+          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
         />
-
         <Feature
           logo={money}
-          title="Moneyback Guarrentee"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"
+          title="Money Pay Back"
+          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
         />
       </div>
     </div>
