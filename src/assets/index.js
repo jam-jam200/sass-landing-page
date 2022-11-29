@@ -15,6 +15,7 @@ import monday from "./monday.png";
 import money from "./money.png";
 import morpheus from "./morpheus.png";
 import openZeppelin from "./openZeppelin.png";
+import oracle from "./oracle.png";
 import people from "./people.png";
 import plus from "./plus.png";
 import protonet from "./protonet.png";
@@ -43,6 +44,7 @@ export {
   monday,
   money,
   morpheus,
+  oracle,
   openZeppelin,
   people,
   plus,
