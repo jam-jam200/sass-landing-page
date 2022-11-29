@@ -3,6 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 6rem;
+
+  @media screen and (max-width: 700px) {
+    padding: 2rem 4rem;
+  }
+
+  @media screen and (max-width: 550px) {
+    padding: 2rem;
+  }
 }
 
 .arshakir__navbar-links {
@@ -16,7 +24,7 @@
 
     img {
       width: 94px;
-      height: 25px;
+      height: 20px;
     }
   }
 }
@@ -24,17 +32,28 @@
 .arshakir__navbar-links_container {
   display: flex;
   flex-direction: row;
+  margin-left: 17rem;
+  text-align: center;
 
-  p > a {
-    color: var(--color-text);
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-    margin: 0rem 1rem;
-    cursor: pointer;
-    text-decoration: none;
+  p {
+    margin-left: 2rem;
+
+    a {
+      color: var(--color-text);
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-transform: capitalize;
+      margin: 0rem 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      margin-left: 13px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    display: none;
   }
 }
 
@@ -46,11 +65,11 @@
   p {
     color: var(--color-text);
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-    margin: 0rem 1rem;
+    margin: 0rem 5rem;
     cursor: pointer;
     text-decoration: none;
   }
@@ -58,10 +77,10 @@
   button {
     padding: 1rem 2rem;
     border-radius: 5px;
-    background: #ff4820;
+    background: var(--color-button);
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     left: 1153px;
     top: 55px;
     font-size: 18px;
@@ -71,18 +90,10 @@
     outline: none;
     cursor: pointer;
   }
-}
 
-.arshakir__navbar-menu_container p > a {
-  color: var(--color-text);
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-  margin: 0rem 1rem;
-  cursor: pointer;
-  text-decoration: none;
+  @media screen and (max-width: 550px) {
+    display: none;
+  }
 }
 
 .arshakir__navbar-menu {
@@ -92,6 +103,27 @@
 
   svg {
     cursor: pointer;
+  }
+
+  .arshakir__navbar-menu_container p > a {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    @media screen and (max-width: 1050px) {
+      color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    display: flex;
+    background-color: #fff;
   }
 }
 
@@ -118,7 +150,7 @@
   p > a {
     color: var(--color-text);
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
@@ -128,12 +160,12 @@
   }
 
   button {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 5px;
-    background: #ff4820;
+    background: var(--color-button);
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     left: 1153px;
     top: 55px;
     font-size: 18px;
@@ -143,47 +175,32 @@
     outline: none;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 550px) {
+    top: 20px;
+  }
 }
 
 .arshakir__navbar-menu_container-links-sign {
   display: none;
+  @media screen and (max-width: 550px) {
+    display: block;
+
+    p {
+      color: #fff;
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-transform: capitalize;
+      margin: 1rem 1rem;
+      cursor: pointer;
+    }
+  }
 }
 
-// @media screen and (max-width: 1050px) {
-//   .arshakir__navbar-links_container {
-//     display: none;
-//   }
-
-//   .arshakir__navbar-menu {
-//     display: flex;
-//   }
-// }
-// @media screen and (max-width: 700px) {
-//   .arshakir__navbar {
-//     padding: 2rem 4rem;
-//   }
-// }
-// @media screen and (max-width: 550px) {
-//   .arshakir__navbar {
-//     padding: 2rem;
-//   }
-//   .arshakir__navbar-sign {
-//     display: none;
-//   }
-//   .arshakir__navbar-menu_container {
-//     top: 20px;
-//   }
-//   .arshakir__navbar-menu_container-links-sign {
-//     display: block;
-//   }
-//   .arshakir__navbar-menu_container-links-sign p {
-//     color: #fff;
-//     font-family: var(--font-family);
-//     font-weight: 500;
-//     font-size: 18px;
-//     line-height: 25px;
-//     text-transform: capitalize;
-//     margin: 1rem 1rem;
-//     cursor: pointer;
-//   }
-// }
+.arshakir__navbar-menu_container-links {
+  @media screen and (max-width: 550px) {
+    text-align: left;
+  }
+}

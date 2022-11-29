@@ -41,13 +41,13 @@ const NavBar = () => {
       <div className="arshakir__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#000"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#000"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
@@ -58,7 +58,7 @@ const NavBar = () => {
               <Menu />
               <div className="arshakir__navbar-menu_container-links-sign">
                 <p>Sign in</p>
-                <button type="button">sign up</button>
+                <button type="button">Start Free</button>
               </div>
             </div>
           </div>

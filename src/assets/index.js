@@ -3,6 +3,7 @@ import arrow from "./arrow.png";
 import blockRight from "./blockRight.png";
 import blockLeft from "./blocks.png";
 import cookies from "./cookies.png";
+import downArrow from "./downArrow.svg";
 import curlyArrow from "./curlyArrow.png";
 import followerImg from "./followerImg.png";
 import headerImg from "./headerImg.png";
@@ -31,6 +32,7 @@ export {
   blockLeft,
   blockRight,
   cookies,
+  downArrow,
   curlyArrow,
   followerImg,
   headerImg,
