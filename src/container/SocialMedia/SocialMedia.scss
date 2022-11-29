@@ -1,4 +1,4 @@
-.arshakir__followers {
+.arshakir__socialmedia {
   display: flex;
   flex-direction: row;
   padding-top: 0 !important;
@@ -10,7 +10,7 @@
   }
 }
 
-.arshakir__followers-content {
+.arshakir__socialmedia-content {
   flex: 0.8;
   display: flex;
   justify-content: center;
@@ -55,7 +55,7 @@
     }
   }
 
-  .arshakir__followers-content__input {
+  .arshakir__socialmedia-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
     display: flex;
@@ -100,14 +100,14 @@
   }
 }
 
-.arshakir__followers-image {
+.arshakir__socialmedia-image {
   flex: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.arshakir__followers-image img {
+.arshakir__socialmedia-image img {
   width: 100%;
   height: 100%;
 }
