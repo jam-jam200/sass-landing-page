@@ -3,7 +3,7 @@ import { people, headerImg, arrow } from "../../assets";
 import "./Header.scss";
 
 const Header = () => (
-  <div className="arshakir__header section__padding section__margin" id="home">
+  <div className="arshakir__header section__padding">
     <div className="arshakir__header-content">
       <h1 className="heading__text">Increase your followers on social media</h1>
       <p>

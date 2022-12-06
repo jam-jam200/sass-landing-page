@@ -4,7 +4,7 @@ import "./Followers.scss";
 
 const Followers = () => (
   <div
-    className="arshakir__followers section__margin section__padding"
+    className="arshakir__followers section__padding"
     id="products"
   >
     <div className="arshakir__followers-content">
