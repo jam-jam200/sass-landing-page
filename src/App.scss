@@ -9,6 +9,12 @@ body {
   background: var(--color-bg);
 }
 
+.sub__heading-text {
+  color: var(--sub-heading);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+}
+
 .heading__text {
   background: var(--heading-text);
   background-clip: text;

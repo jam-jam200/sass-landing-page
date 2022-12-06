@@ -18,7 +18,7 @@ import openZeppelin from "./openZeppelin.png";
 import oracle from "./oracle.png";
 import people from "./people.png";
 import people01 from "./people01.png";
-import people02 from "./people01.png";
+import people02 from "./people02.png";
 import people03 from "./people03.png";
 import plus from "./plus.png";
 import protonet from "./protonet.png";
