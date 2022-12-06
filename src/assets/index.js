@@ -1,4 +1,4 @@
-import logosvg from "./AR Shakir.svg";
+import logosvg from "./arshakir.svg";
 import arrow from "./arrow.png";
 import blockRight from "./blockRight.png";
 import blockLeft from "./blocks.png";
