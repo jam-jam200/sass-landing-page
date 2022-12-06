@@ -20,7 +20,7 @@ function App() {
       <Arshakir />
       <Followers />
       <SocialMedia />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQS />
       <Subscription />
       <CTA />

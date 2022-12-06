@@ -42,14 +42,16 @@ const Testimonials = () => {
             className="arshakir__testimonials__feedback-card"
             key={testimonial.id}
           >
-            <img src={quote} alt="double quotes" />
+            <div className="quote">
+              <img src={quote} alt="double quotes" />
+            </div>
             <div className="arshakir__testimonials__feedback-stars">
               <img src={star} alt="stars" />
             </div>
             <p>{testimonial.content}</p>
             <div className="arshakir__testimonials__feedback-card__details">
               <img src={testimonial.img} alt={testimonial.name} />
-              <div className="arshakir__testimonials__feedback-card__info">
+              <div>
                 <h4>{testimonial.name}</h4>
                 <p>{testimonial.title}</p>
               </div>

@@ -6,7 +6,7 @@
   margin-top: 0 !important;
   padding-bottom: 0 !important;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     padding: 2rem 4rem;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -55,6 +55,10 @@
       cursor: pointer;
       text-decoration: none;
       margin-left: 13px;
+
+      @media screen and (min-width: 1350px) {
+        margin-left: -12px;
+      }
     }
   }
 
@@ -78,6 +82,10 @@
     margin: 0rem 5rem;
     cursor: pointer;
     text-decoration: none;
+
+    @media screen and (min-width: 1350px) {
+     margin: 0rem 1rem;
+    }
   }
 
   button {
