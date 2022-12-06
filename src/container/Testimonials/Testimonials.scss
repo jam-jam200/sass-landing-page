@@ -6,6 +6,14 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+
+  @media screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 1030px) {
+    flex-direction: row;
+  }
 }
 
 .arshakir__testimonials-heading {
@@ -16,6 +24,10 @@
     line-height: 64px;
     text-align: center;
     color: #000000;
+
+    @media screen and (max-width: 1050px) {
+      font-size: 45px;
+    }
   }
 
   h4 {
@@ -93,6 +105,13 @@
 
     @media screen and (max-width: 768px) {
       margin-left: 2rem;
+    }
+
+    @media screen and (max-width: 1030px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
   }
 
