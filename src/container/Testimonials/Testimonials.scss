@@ -8,3 +8,31 @@
   margin-bottom: 0 !important;
 }
 
+.arshakir__testimonials__feedback-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 2.5rem 3rem 2.5rem;
+  margin: 1.25rem 0 1.25rem 0;
+
+  .arshakir__testimonials__feedback-card {
+    p {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .arshakir__testimonials__feedback-card__details{
+        img {
+            
+        }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    justify-content: start;
+    margin-right: 1.25rem;
+  }
+}

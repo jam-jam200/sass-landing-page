@@ -6,7 +6,7 @@ const testimonials = [
   {
     id: "feedback-1",
     content:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and.",
+      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
     name: "Serhiy Hipskyy",
     title: "CEO Universal",
     img: people01,
