@@ -1,5 +1,6 @@
 import React from 'react'
 import {followerImg, purpleArrow} from "../../assets"
+import { Accordion } from '../../components';
 import "./Faqs.scss"
 
 const Faqs = () => {
@@ -26,7 +27,7 @@ const Faqs = () => {
         </div>
 
         <div className="arshakir__faqs-image">
-          <img src={followerImg} />
+          <Accordion />
         </div>
       </div>
     </>
