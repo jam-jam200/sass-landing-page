@@ -11,12 +11,13 @@ const Accordion = () => {
   };
 
   return (
-    <div className="arshakir__accordion__container">
-      <div className="arshakir__accordion-questions">
+    <div className="arshakir__accordion__container ">
+      <div className="arshakir__accordion-questions accordion">
         {faq__questions.map((question, index) => (
           <div
             key={index + question.question}
             onClick={() => handleAccordion(index)}
+            className="arshakir__accordion-question item"
           >
             <div className="arshakir__accordion__question-heading">
               <h3 className={accordion === index ? "active" : ""}>
@@ -27,7 +28,9 @@ const Accordion = () => {
               {accordion === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
             </div>
             <div>
-              <p>{question.answer}</p>
+              <p className={accordion === index ? "active" : "inactive"}>
+                {question.answer}
+              </p>
             </div>
           </div>
         ))}
