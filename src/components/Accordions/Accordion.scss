@@ -1,9 +1,5 @@
-// .arshakir__accordion__container {
-//     width: 600px;
-// }
-
 .arshakir__accordion-questions {
-    width: 100%;
+  width: 100%;
   //   width: 700px;
 
   .arshakir__accordion-question {
@@ -11,19 +7,34 @@
     padding: 10px 20px;
 
     .arshakir__accordion__question-heading {
-      font-family: var(--font-family);
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 29px;
-      color: #1b1c31;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+
+      h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18.5px;
+        line-height: 29px;
+        color: #1b1c31;
+      }
     }
 
     .arshakir__accordion__answer-content {
       font-family: var(--font-family);
       border-bottom: 1px solid #8896a6;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 17px;
       line-height: 29px;
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    }
+
+    .arshakir__accordion__answer-content.show {
+      height: auto;
+      max-height: 9999px;
+      transition: all 0.5s cubic-bezier(1, 0, 1, 0);
     }
   }
 }
