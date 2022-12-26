@@ -1,17 +1,29 @@
-.arshakir__accordion-questions {
-  width: 100%;
+// .arshakir__accordion__container {
+//     width: 600px;
+// }
 
-  div {
+.arshakir__accordion-questions {
+    width: 100%;
+  //   width: 700px;
+
+  .arshakir__accordion-question {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+
     .arshakir__accordion__question-heading {
       font-family: var(--font-family);
-      font-weight: 700;
-      font-size: 17px;
+      font-weight: 600;
+      font-size: 18px;
       line-height: 29px;
       color: #1b1c31;
     }
 
-    .arshakir__accordion-minus {
-        
+    .arshakir__accordion__answer-content {
+      font-family: var(--font-family);
+      border-bottom: 1px solid #8896a6;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 29px;
     }
   }
 }

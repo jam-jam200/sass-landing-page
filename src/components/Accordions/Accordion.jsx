@@ -6,31 +6,22 @@ import { faq__questions } from "../../constants";
 const Accordion = () => {
   const [accordion, setAccordion] = useState(-1);
 
-  const handleAccordion = (index) => {
-    setAccordion(index);
-  };
-
   return (
     <div className="arshakir__accordion__container ">
       <div className="arshakir__accordion-questions accordion">
         {faq__questions.map((question, index) => (
           <div
             key={index + question.question}
-            onClick={() => handleAccordion(index)}
             className="arshakir__accordion-question item"
           >
-            <div className="arshakir__accordion__question-heading">
+            <div className="arshakir__accordion__question-heading title">
               <h3 className={accordion === index ? "active" : ""}>
                 {question.question}
               </h3>
+              <AiOutlinePlus color="#000" />s
             </div>
-            <div className="arshakir__accordion-minus">
-              {accordion === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
-            </div>
-            <div>
-              <p className={accordion === index ? "active" : "inactive"}>
-                {question.answer}
-              </p>
+            <div className="arshakir__accordion__answer-content">
+              <p>{question.answer}</p>
             </div>
           </div>
         ))}
