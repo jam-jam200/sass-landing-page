@@ -4,7 +4,7 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import Accordion from "react-bootstrap/Accordion";
 
 const Accordions = () => {
-  const [activeAccordion, setActiveAccordion] = useState([
+  const [faqs, setFaqs] = useState([
     [
       {
         question: "How does this work?",
@@ -33,7 +33,27 @@ const Accordions = () => {
     ],
   ]);
 
-  return <div className="arshakir__accordion__container wrapper"></div>;
+  return (
+    <div className="arshakir__accordion__container wrapper">
+      {faqs.map((faq, index) => (
+        <div key={index} className="arshakir__accordion__faqs">
+          {faq.map((item, i) => (
+            <div
+              key={i}
+              className={
+                "arshakir__accordion__question-faq" + (item.open ? "open" : "")
+              }
+            >
+              <div className="arshakir__accordion-question">
+                {item.question}
+              </div>
+              <div className="arshakir__accordion-answer">{item.answer}</div>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Accordions;
