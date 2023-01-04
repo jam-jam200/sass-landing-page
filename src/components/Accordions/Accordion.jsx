@@ -25,9 +25,9 @@ const Accordions = () => {
         <div
           key={index}
           onClick={() => toggleFAQ(index)}
-          className={
-            "arshakir__accordion__question-faq" + (faq.open ? "open" : "")
-          }
+          className={`arshakir__accordion__question-faq ${
+            faq.open ? "open" : ""
+          } `}
         >
           <div className="arshakir__accordion-question">{faq.question}</div>
           <div className="arshakir__accordion-answer">{faq.answer}</div>

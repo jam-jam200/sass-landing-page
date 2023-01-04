@@ -21,6 +21,6 @@ export const faq__questions = [
     question: "What features do you offer and what don't you?",
     answer:
       "Yet bed any for  assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
-    open: false,
+   open: false,
   },
 ];
