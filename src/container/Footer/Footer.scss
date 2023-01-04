@@ -16,13 +16,13 @@
     text-align: left;
 
     div {
-      width: 300px;
       margin: 1rem;
     }
 
     .arshakir__footer-links_logo {
       display: flex;
       flex-direction: column;
+      flex: 1;
 
       img {
         width: 118px;
@@ -44,6 +44,7 @@
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
+      flex: 0.4;
 
       h4 {
         font-family: var(--font-family);

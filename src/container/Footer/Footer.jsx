@@ -10,8 +10,9 @@ const Footer = () => {
         <div className="arshakir__footer-links_logo">
           <img src={logosvg} alt="logo" />
           <p>
-            Yet bed any for travelling assistance indulgence unpleasing. Not
-            thoughts all exercise blessing. Indulgence way everything joy
+            Yet bed any for travelling assistance indulgence unpleasing. Not{" "}
+            <br />
+            thoughts all exercise blessing. Indulgence way everything joy <br />
             alteration boisterous the attachment.
           </p>
         </div>
@@ -33,13 +34,6 @@ const Footer = () => {
             <p key={index + resource}>{resource.name}</p>
           ))}
         </div>
-      </div>
-      <div className="arshakir__footer-copyright">
-        <p>
-          2022 ARShakir Inc. All rights reserved. -- Privacy Policy - Terms of
-          Services
-        </p>
-        <p>Supported by Microsoft Startup</p>
       </div>
     </div>
   );

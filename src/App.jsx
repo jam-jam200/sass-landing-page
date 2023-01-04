@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CTA, Subscription, NavBar, Brand } from "./components";
+import { CTA, Subscription, NavBar, Brand, Copyright } from "./components";
 import {
   FAQS,
   Footer,
@@ -26,6 +26,7 @@ function App() {
       <Subscription />
       <CTA />
       <Footer />
+      <Copyright />
     </div>
   );
 }
