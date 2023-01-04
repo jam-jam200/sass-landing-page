@@ -1,6 +1,6 @@
 import React from "react";
 import "./CTA.scss";
-import { arrow } from "../../assets";
+import { blackArrow } from "../../assets";
 
 const CTA = () => {
   return (
@@ -13,7 +13,7 @@ const CTA = () => {
         <div className="arshakir__CTA-content__input">
           <button type="button">
             Join the waitlist
-            <img src={arrow} alt="arrow" />
+            <img src={blackArrow} alt="arrow" />
           </button>
         </div>
       </div>

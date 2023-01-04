@@ -1,5 +1,6 @@
 import logosvg from "./arshakir.svg";
 import arrow from "./arrow.png";
+import blackArrow from "./blackArrow.png"
 import blockRight from "./blockRight.png";
 import blockLeft from "./blocks.png";
 import cookies from "./cookies.png";
@@ -34,6 +35,7 @@ import subscribeImg from "./subscribeImg.png";
 export {
   logosvg,
   arrow,
+  blackArrow,
   blockLeft,
   blockRight,
   cookies,
