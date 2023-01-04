@@ -4,8 +4,13 @@
   margin: 0 auto;
   padding: 25px;
 
+  .open .arshakir__accordion-answer {
+    max-height: 1000px !important;
+    opacity: 1 !important;
+  }
+
   .open .arshakir__accordion-question {
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 
     &::after {
       background-image: url("../../assets/minus.svg") !important;
@@ -19,13 +24,14 @@
 
   .arshakir__accordion__question-faq {
     margin: 10px;
-    padding: 1px;
+    padding: 10px;
+    border-bottom: 1px solid #8896A6;
 
     .arshakir__accordion-question {
       position: relative;
       font-family: var(--font-family);
       font-weight: 700;
-      font-size: 17px;
+      font-size: 19px;
       line-height: 20px;
       color: #1b1c31;
       padding-right: 80px;
@@ -52,10 +58,9 @@
       opacity: 0;
       max-height: 0;
       overflow-y: hidden;
-      transition: all 0.4s ease;
       font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 15px;
+      font-weight: 500;
+      font-size: 17px;
       line-height: 20px;
       color: #1b1c31;
     }
