@@ -58,6 +58,12 @@
         line-height: 24px;
         flex: 0.6;
       }
+
+      @media screen and (max-width: 490px) {
+        font-size: 14px;
+        line-height: 18px;
+        flex: 0.6;
+      }
     }
 
     .arshakir__accordion-answer {
