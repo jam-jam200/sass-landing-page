@@ -1,33 +1,7 @@
 import React from "react";
 import "./Testimonials.scss";
-import { people01, people02, people03, star, quote } from "../../assets";
-
-const testimonials = [
-  {
-    id: "feedback-1",
-    content:
-      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    name: "Serhiy Hipskyy",
-    title: "CEO Universal",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    name: "Justus Menke",
-    title: "CEO Eronaman",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    name: "Justus Menke",
-    title: "CEO Eronaman",
-    img: people03,
-  },
-];
+import { star, quote } from "../../assets";
+import { testimonials } from "../../constants";
 
 const Testimonials = () => {
   return (

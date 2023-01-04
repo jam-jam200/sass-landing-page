@@ -1,3 +1,4 @@
+import { people01, people02, people03 } from "../assets";
 export const faq__questions = [
   {
     question: "How does this work?",
@@ -21,6 +22,33 @@ export const faq__questions = [
     question: "What features do you offer and what don't you?",
     answer:
       "Yet bed any for  assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
-   open: false,
+    open: false,
+  },
+];
+
+export const testimonials = [
+  {
+    id: "feedback-1",
+    content:
+      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
+    name: "Serhiy Hipskyy",
+    title: "CEO Universal",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
+    name: "Justus Menke",
+    title: "CEO Eronaman",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
+    name: "Justus Menke",
+    title: "CEO Eronaman",
+    img: people03,
   },
 ];
