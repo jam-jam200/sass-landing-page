@@ -25,6 +25,12 @@
         transform: translateY(-50%);
         width: 30px;
         height: 30px;
+
+        background-image: url("../../assets/plus.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.4s ease;
       }
     }
 

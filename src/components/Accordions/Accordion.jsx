@@ -7,10 +7,16 @@ const Accordions = () => {
   const [faqs, setFaqs] = useState([
     [
       {
+        question: "",
+        answer:
+          "",
+        open: true,
+      },
+      {
         question: "How does this work?",
         answer:
           "Yet bed any for  assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
-        open: true,
+        open: false,
       },
       {
         question: "Are there any additional fee?",
