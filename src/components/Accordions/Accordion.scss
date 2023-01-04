@@ -4,6 +4,14 @@
   margin: 0 auto;
   padding: 25px;
 
+  .open .arshakir__accordion-question {
+    margin-bottom: 15px;
+
+    &::after {
+      transform: translateY(-50%) rotate(180deg) !important;
+    }
+  }
+
   .arshakir__accordion__question-faq {
     margin: 10px;
     padding: 1px;
@@ -16,9 +24,7 @@
       line-height: 20px;
       color: #1b1c31;
       padding-right: 80px;
-
-      
-
+      transition: all 0.4s ease;
 
       &::after {
         content: "";
@@ -29,7 +35,7 @@
         width: 30px;
         height: 30px;
 
-        background-image: url("../../assets/plus.svg");
+        background-image: url("../../assets/arrowch.svg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -42,6 +48,11 @@
       max-height: 0;
       overflow-y: hidden;
       transition: all 0.4s ease;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #1b1c31;
     }
   }
 }
