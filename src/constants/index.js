@@ -52,3 +52,48 @@ export const testimonials = [
     img: people03,
   },
 ];
+
+export const company = [
+  {
+    name: "About Us",
+  },
+  {
+    name: "Careers",
+  },
+  {
+    name: "Blog",
+  },
+  {
+    name: "Pricing",
+  },
+];
+
+export const product = [
+  {
+    name: "Facebook Followers",
+  },
+  {
+    name: "Instagram Followers",
+  },
+  {
+    name: "Twitter Followers",
+  },
+  {
+    name: "Tiktok Followers",
+  },
+];
+
+export const resources = [
+  {
+    name: "Proposal Template",
+  },
+  {
+    name: "Invoices",
+  },
+  {
+    name: "Tutorials",
+  },
+  {
+    name: "How to increase activity",
+  },
+];
