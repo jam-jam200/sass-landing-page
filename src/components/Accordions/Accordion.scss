@@ -25,7 +25,7 @@
   .arshakir__accordion__question-faq {
     margin: 10px;
     padding: 10px;
-    border-bottom: 1px solid #8896A6;
+    border-bottom: 1px solid #8896a6;
 
     .arshakir__accordion-question {
       position: relative;
@@ -52,6 +52,12 @@
         background-repeat: no-repeat;
         transition: all 0.4s ease;
       }
+
+      @media screen and (max-width: 650px) {
+        font-size: 16px;
+        line-height: 24px;
+        flex: 0.6;
+      }
     }
 
     .arshakir__accordion-answer {
@@ -63,6 +69,12 @@
       font-size: 17px;
       line-height: 20px;
       color: #1b1c31;
+
+      @media screen and (max-width: 650px) {
+        font-size: 14px;
+        line-height: 20px;
+        flex: 0.6;
+      }
     }
   }
 }
