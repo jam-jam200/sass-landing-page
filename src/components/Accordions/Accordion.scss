@@ -8,6 +8,11 @@
     margin-bottom: 15px;
 
     &::after {
+      background-image: url("../../assets/minus.svg") !important;
+      background-position: center !important;
+      background-size: contain !important;
+      background-repeat: no-repeat !important;
+      transition: all 0.4s ease !important;
       transform: translateY(-50%) rotate(180deg) !important;
     }
   }
@@ -35,7 +40,7 @@
         width: 30px;
         height: 30px;
 
-        background-image: url("../../assets/arrowch.svg");
+        background-image: url("../../assets/plus.svg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
