@@ -3,7 +3,7 @@ import "./copyright.scss";
 
 const Copyright = () => {
   return (
-    <div className="arshakir__footer-copy section__padding">
+    <div className="arshakir__footer-copy">
       <p>
         2022 ARShakir Inc. All rights reserved. -- Privacy Policy - Terms of
         Services
