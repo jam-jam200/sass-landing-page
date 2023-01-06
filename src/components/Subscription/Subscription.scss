@@ -41,13 +41,25 @@
     left: 40px;
   }
 
-  @media screen and (max-width: 490px) {
-    flex: 0.5;
+  @media screen and (min-width: 440px) {
+    // flex: 0.5;
+    width: 360px !important;
   }
 
-  @media screen and (max-width: 370px) {
+  @media screen and (min-width: 301px) {
     left: 5px;
-    width: 300px;
+    width: 250px;
+  }
+
+  @media screen and (min-width: 340px) {
+    left: 5px;
+    width: 270px;
+  }
+
+  @media screen and (min-width: 370px) {
+    left: 15px;
+    width: 270px;
+    align-items: center;
   }
 
   @media screen and (max-width: 300px) {
