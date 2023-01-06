@@ -8,9 +8,9 @@ const Copyright = () => {
         2022 ARShakir Inc. All rights reserved. -- Privacy Policy - Terms of
         Services
       </p>
-      <div className="arshakir__footer-copyright2">
-        <p>Supported by Microsoft Startup</p>
-      </div>
+      <p>
+        Supported by <strong>Microsoft Startup</strong>
+      </p>
     </div>
   );
 };

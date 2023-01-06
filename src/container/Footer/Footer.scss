@@ -17,6 +17,10 @@
 
     div {
       margin: 1rem;
+
+      @media screen and (max-width: 550px) {
+        margin: 1rem 0;
+      }
     }
 
     .arshakir__footer-links_logo {
@@ -37,6 +41,11 @@
         line-height: 26px;
         color: #ffffff;
         opacity: 0.4;
+
+        @media screen and (max-width: 550px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
     }
 

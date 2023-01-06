@@ -3,10 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   padding-top: 1.5rem !important;
   border-top: 1px solid #404444;
   background: var(--color-footer);
+
+  @media screen and (max-width: 900px) {
+   flex-direction: column;
+  }
 
   p {
     font-family: var(--font-family);
@@ -14,11 +18,5 @@
     font-size: 15px;
     line-height: 26px;
     color: #fff;
-  }
-
-  .arshakir__footer-copyright2 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1.5rem;
   }
 }
