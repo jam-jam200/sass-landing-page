@@ -9,7 +9,7 @@
   background: var(--color-footer);
 
   @media screen and (max-width: 900px) {
-   flex-direction: column;
+    flex-direction: column;
   }
 
   p {
@@ -18,5 +18,10 @@
     font-size: 15px;
     line-height: 26px;
     color: #fff;
+
+    @media screen and (max-width: 650px) {
+      font-size: 13px;
+      line-height: 20px;
+    }
   }
 }
