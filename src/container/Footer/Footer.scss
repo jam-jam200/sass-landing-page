@@ -32,10 +32,9 @@
       flex-direction: column;
       flex: 1;
 
-      @media screen and (max-width: 1050px) {
-        font-size: 14px;
-        line-height: 20px;
-      }
+      // @media screen and (max-width: 1050px) {
+      //   flex: 3;
+      // }
 
       img {
         width: 118px;
@@ -60,9 +59,13 @@
 
     .arshakir__footer-links_div {
       display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
       flex: 0.4;
+
+      
 
       h4 {
         font-family: var(--font-family);

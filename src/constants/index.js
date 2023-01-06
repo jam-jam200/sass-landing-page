@@ -53,6 +53,60 @@ export const testimonials = [
   },
 ];
 
+export const footerLinks = [
+  {
+    title: "Company",
+    links: [
+      {
+        name: "About Us",
+      },
+      {
+        name: "Careers",
+      },
+      {
+        name: "Blog",
+      },
+      {
+        name: "Pricing",
+      },
+    ],
+  },
+  {
+    title: "Product",
+    links: [
+      {
+        name: "Facebook Followers",
+      },
+      {
+        name: "Instagram Followers",
+      },
+      {
+        name: "Twitter Followers",
+      },
+      {
+        name: "Tiktok Followers",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      {
+        name: "Proposal Template",
+      },
+      {
+        name: "Invoices",
+      },
+      {
+        name: "Tutorials",
+      },
+      {
+        name: "How to increase activity",
+      },
+    ],
+  },
+];
+
 export const company = [
   {
     name: "About Us",
