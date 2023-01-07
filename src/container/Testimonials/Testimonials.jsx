@@ -5,7 +5,7 @@ import { testimonials } from "../../constants";
 
 const Testimonials = () => {
   return (
-    <div className="section__padding arshakir__testimonials">
+    <div className="section__padding arshakir__testimonials" id="Testimonials">
       <div className="arshakir__testimonials-heading">
         <h4 className="sub__heading-text">Testimonials</h4>
         <h1>What Our Happy User Says</h1>

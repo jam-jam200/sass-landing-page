@@ -3,7 +3,7 @@ import "./Subscription.scss";
 
 const Subscription = () => {
   return (
-    <div className="arshakir__subscribe section__padding" id="products">
+    <div className="arshakir__subscribe section__padding" id="Blog">
       <div className="arshakir__subscribe-content">
         <p>Join our community</p>
         <h3>
