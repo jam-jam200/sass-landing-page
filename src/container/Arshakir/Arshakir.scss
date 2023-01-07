@@ -61,6 +61,48 @@
   display: flex;
   flex-direction: column;
   padding: 5rem;
+
+  .arshakir__arshakir-blocks {
+    .arshakir__arshakir-block1 {
+      position: relative;
+      top: 0;
+      right: 10.9rem;
+    }
+
+    .arshakir__arshakir-block2 {
+      position: relative;
+      top: 0;
+      left: 78.1rem;
+
+      @media screen and (min-width: 2560px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2450px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2350px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2560px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2560px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2560px) {
+        left: 132.5rem;
+      }
+
+      @media screen and (min-width: 2560px) {
+        left: 132.5rem;
+      }
+    }
+  }
 }
 
 .arshakir__arshakir-feature {
