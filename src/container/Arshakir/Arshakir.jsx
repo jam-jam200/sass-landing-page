@@ -25,37 +25,39 @@ const Feature = ({ title, text, logo }) => {
 
 const Ashakir = () => {
   return (
-    <div className="arshakir__arshakir section__margin" id="packages">
-      <div className="arshakir__arshakir-blocks">
-        <img src={blockLeft} alt="" className="arshakir__arshakir-block1" />
-        <img src={blockRight} alt="" className="arshakir__arshakir-block2" />
+    <>
+      <div className="blocks">
+        <img src={blockLeft} alt="" className="block1" />
+        <img src={blockRight} alt="" className="block2" />
       </div>
-      <div className="arshakir__arshakir-feature heading__text">
-        <h1>One platform to increase followers on all social media.</h1>
+      <div className="arshakir__arshakir" id="packages">
+        <div className="arshakir__arshakir-feature heading__text">
+          <h1>One platform to increase followers on all social media.</h1>
+        </div>
+        <div className="arshakir__arshakir-container">
+          <Feature
+            logo={security}
+            title="100% Secure"
+            text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
+          />
+          <Feature
+            logo={cookies}
+            title="No Cookies Required"
+            text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
+          />
+          <Feature
+            logo={loginArrow}
+            title="Login Required"
+            text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
+          />
+          <Feature
+            logo={money}
+            title="Money Pay Back"
+            text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
+          />
+        </div>
       </div>
-      <div className="arshakir__arshakir-container">
-        <Feature
-          logo={security}
-          title="100% Secure"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
-        />
-        <Feature
-          logo={cookies}
-          title="No Cookies Required"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
-        />
-        <Feature
-          logo={loginArrow}
-          title="Login Required"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
-        />
-        <Feature
-          logo={money}
-          title="Money Pay Back"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought"
-        />
-      </div>
-    </div>
+    </>
   );
 };
 

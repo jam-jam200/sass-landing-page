@@ -5,7 +5,7 @@ import { logosvg } from "../../assets";
 
 const Footer = () => {
   return (
-    <div className="arshakir__footer section__padding">
+    <div className="arshakir__footer">
       <div className="arshakir__footer-links">
         <div className="arshakir__footer-links_logo">
           <img src={logosvg} alt="logo" />

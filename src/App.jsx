@@ -18,6 +18,7 @@ function App() {
       <NavBar />
       <Header />
       <Brand />
+
       <Arshakir />
       <Followers />
       <SocialMedia />

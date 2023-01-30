@@ -1,5 +1,5 @@
 import React from "react";
-import { people, headerImg, arrow } from "../../assets";
+import { people, headerImg, arrow, image } from "../../assets";
 import "./Header.scss";
 
 const Header = () => (
@@ -31,7 +31,7 @@ const Header = () => (
     </div>
 
     <div className="arshakir__header-image">
-      <img src={headerImg} />
+      <img src={image} alt="header imagePicture"/>
     </div>
   </div>
 );

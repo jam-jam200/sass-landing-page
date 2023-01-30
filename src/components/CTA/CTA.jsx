@@ -4,7 +4,7 @@ import { blackArrow } from "../../assets";
 
 const CTA = () => {
   return (
-    <div className="section__padding arshakir__CTA">
+    <div className="arshakir__CTA">
       <div className="arshakir__CTA-heading">
         <h1>
           Join millions of <br /> creative people with Shakir

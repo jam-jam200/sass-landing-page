@@ -26,6 +26,7 @@ import protonet from "./protonet.png";
 import purpleArrow from "./purpleArrow.png";
 import quote from "./quote.png";
 import samsung from "./samsung.png";
+import image from "./image.png";
 import security from "./security.png";
 import segment from "./segment.png";
 import star from "./stars.png";
@@ -36,6 +37,7 @@ export {
   logosvg,
   arrow,
   blackArrow,
+  image,
   blockLeft,
   blockRight,
   cookies,
